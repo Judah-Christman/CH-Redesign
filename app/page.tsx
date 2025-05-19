@@ -82,7 +82,7 @@ Let us help your horse shine on and off the field. Reach out today to schedule a
                 <input className="w-full my-1 border-1 rounded-xl p-1 bg-[#fafafa] shadow-lg" type="text" name="name" placeholder="Your Name" required />
                 <input className="w-full my-1 border-1 rounded-xl p-1 bg-[#fafafa] shadow-lg" type="email" name="email" placeholder="Email" required />
                 <input className="w-full my-1 border-1 rounded-xl p-1 bg-[#fafafa] shadow-lg" type="text" name="number" placeholder="Phone Number" required />
-                <textarea className="w-full my-1 border-1 rounded-xl p-1 bg-[#fafafa] shadow-lg" name="message" rows="4" placeholder="Message..." required></textarea>
+                <textarea className="w-full my-1 border-1 rounded-xl p-1 bg-[#fafafa] shadow-lg" name="message" rows={4} placeholder="Message..." required></textarea>
     
                 {/*Honeypot Spam Protection*/}
                 <input type="checkbox" name="botcheck" className="hidden" style={{display: "none"}} />
